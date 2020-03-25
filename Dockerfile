@@ -18,7 +18,7 @@ RUN VERSION=${version} PLUGINS=${plugins} ENABLE_TELEMETRY=${enable_telemetry} /
 #
 FROM alpine:3.10
 LABEL Source "abiosoft/caddy <https://hub.docker.com/u/abiosoft>"
-LABEL Builder "Wei Zixi <wellsgz@hotmail.com>"
+LABEL Builder "Hello World <hello@world.org>"
 
 ARG version="1.0.0"
 LABEL caddy_version="$version"
